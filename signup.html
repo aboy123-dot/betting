@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page - sport</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Vip Registration Page</h1>
+    <form action="" method="post" autocomplete="on">
+        <div>
+            <label for="fullname">Full Name</label>
+            <input type="text" placeholder="Your Name" id="fullname" required>
+
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="your email" id="email" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="password" required>
+
+        </div>
+        <div>
+            <label for="profile">Profile</label>
+            <input type="file" id="picture" required>
+
+        </div>
+
+        <div>
+            <label for="phone">Phone No</label>
+            <input type="phone" id="phone" placeholder="+234 xxxxxx">
+        </div>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Aroboy1234">
+        </div>
+        <div>
+            <input type="button" onclick="signup()" value="Register">
+        </div>
+
+    </form>
+    <a href="login.html">Login</a>
+
+    <script src="./app.js"></script>
+</body>
+</html>
